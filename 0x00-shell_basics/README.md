@@ -1,2 +1,2 @@
-#!/bin/bash specifies program to write script is bash
-rm /tmp/my_first_directory/betty removes the file betty which is in the directory my_first_directory in the tmp directory
+#!/bin/bash specifies program to execute the script is bash
+rm -r /tmp/my_first_directory removes the directory my_first_directory and its contents from the tmp directory
