@@ -1,3 +1,2 @@
 #!/bin/bash specifies program to write script is bash
-pwd prints prints the absolute pathname of the current working directory
-
+mkdir /tmp/my_first_directory creates a directory named my_first_directory in the /tmp/ directory
