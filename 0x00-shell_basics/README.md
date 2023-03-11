@@ -1,2 +1,2 @@
 #!/bin/bash specifies program to write script is bash
-mv /tmp/betty /tmp/my_first_directory/ Moves the file betty from /tmp/ to /tmp/my_first_directory
+rm /tmp/my_first_directory/betty removes the file betty which is in the directory my_first_directory in the tmp directory
