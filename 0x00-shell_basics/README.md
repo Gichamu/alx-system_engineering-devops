@@ -1,2 +1,2 @@
 #!/bin/bash specifies program to execute the script is bash
-mkdir -p welcome/to/school  creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
+ls -1a | sed -E 's|^(.*)/$|\1/|' | LC_COLLATE=C sort -d | awk '{printf "%s,", $0} END {print ""}'
