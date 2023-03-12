@@ -1,2 +1,2 @@
 #!/bin/bash specifies program to execute the script is bash
-file iamafile  prints the type of the file named iamafile
+ln -s /bin/ls __ls__ creates a symbolic link in the current working directory
