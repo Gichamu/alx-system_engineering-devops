@@ -1,3 +1,2 @@
 #!/bin/bash
 ls -1a | sed -E 's|^(.*)/$|\1/|' | sed "$(echo q | tr q '\047')$(echo LC_COLLATE=C sort -d | tr ' ' '\040')$(echo q | tr q '\047') | awk '{printf "%s,", $0}'; echo ''
-
