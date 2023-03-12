@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1 | sort -d | awk '{printf("%s%s", (NR==1 || $0=="." || $0=="..") ? $0"/" : $0, (NR==NF) ? "\n" : ",")}'
+ls -1a | sed -E 's|^(.*)/$|\1/|' | { LC_COLLATE=C sort -d | awk '{printf "%s,", $0}'; echo ''; } 
