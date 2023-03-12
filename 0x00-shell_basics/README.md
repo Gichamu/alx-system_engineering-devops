@@ -1,2 +1,2 @@
 #!/bin/bash specifies program to execute the script is bash
-ln -s /bin/ls __ls__ creates a symbolic link in the current working directory
+rsync -avu --exclude='*' --include='*.html' ./ ../ coppies all html files from current workiing directory to parent directory
