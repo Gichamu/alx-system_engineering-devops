@@ -1,2 +1,3 @@
-#!/bin/bash
-ls -axnm
+
+0;276;0c#!/bin/bash
+ls -aFxnm
