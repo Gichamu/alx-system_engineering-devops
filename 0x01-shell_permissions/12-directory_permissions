@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R 751 my_dir
+sudo 751 my_dir
