@@ -1,1 +1,1 @@
-sysytem engineering devops
+shell redirections
