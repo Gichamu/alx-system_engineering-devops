@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f print| head | ls -lt
+find . -type f | ls -xt| head
